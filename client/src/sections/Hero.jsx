@@ -46,7 +46,7 @@ const Hero = ({ }) => {
                     transition={{ duration: 1, ease: "easeOut", delay: 0.4 }}
                 >
 
-                    <div className="bg-blue-200 rounded-xl shadow-md flex flex-col pb-4 pr-4 sm:ml-4 md:ml-10">
+                    {/* <div className="bg-blue-200 rounded-xl shadow-md flex flex-col pb-4 pr-4 sm:ml-4 md:ml-10">
                         <div className="bg-gradient-to-r from-blue-400 to-purple-400 text-slate-200 p-4 rounded-lg shadow-md w-full">
                             <div>
                                 <p>Harry did you put your name in the goblet of fire?</p>
@@ -70,7 +70,7 @@ const Hero = ({ }) => {
                                 <p>Harry did you put your name in the goblet of fire?</p>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </motion.div>
             </motion.div>
         </div>
