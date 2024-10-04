@@ -2,6 +2,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import SignalUpdateByRoute from '../sections/signal_update/SignalUpdateByRoute';
 import AverageSignalTime from '../sections/Charts/AverageSignalTime';
+import Hero from '../sections/Hero';
 
 const Home = () => {
 
@@ -31,6 +32,7 @@ const Home = () => {
 
                 {!loading &&
                     <div className='w-full'>
+                        <Hero />
                         <SignalUpdateByRoute />
                         <AverageSignalTime />
                     </div>
