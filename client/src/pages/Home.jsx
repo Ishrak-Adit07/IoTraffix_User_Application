@@ -42,7 +42,7 @@ const Home = () => {
                         <PersonSpecificeFeatures />
                         <Contact scrollToContact={scrollToContact} /> */}
                         <p>This is from home</p>
-                        <SignalUpdateByRoute />
+                        {/* <SignalUpdateByRoute /> */}
                     </div>
                 }
             </div>

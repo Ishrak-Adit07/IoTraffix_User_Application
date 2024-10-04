@@ -1,8 +1,8 @@
 /* eslint-disable no-unused-vars */
-import React, { useContext, useRef } from "react";
-import { Link, Outlet, useNavigate } from "react-router-dom";
-import { UserContext } from "../contexts/UserContext";
-import ResponsiveNavbar from "../sections/navbar/ResponsiveNavbar";
+import React, { useRef } from "react";
+import { Outlet } from "react-router-dom";
+import Navbar from "../sections/navbar/Navbar";
+// import { UserContext } from "../contexts/UserContext";
 
 const Layout = () => {
     const scrollToAboutMe = useRef(null);
@@ -30,7 +30,7 @@ const Layout = () => {
     return (
         <>
 
-            <ResponsiveNavbar
+            <Navbar
                 scrollToAboutMe={scrollToAboutMe}
                 scrollToProjects={scrollToProjects}
                 scrollToContact={scrollToContact}

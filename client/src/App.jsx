@@ -1,9 +1,9 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-
-import Home from "./pages/Home";
 import Layout from "./pages/Layout";
+import Home from "./pages/Home";
+
 
 const App = () => {
   return (

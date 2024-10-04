@@ -8,23 +8,19 @@ export const HERO_CONTENT = "This is FinanSage, your personal finance manager";
 
 export const NAVBAR_DROPLISTS = [
   {
-    header : "Gadgets",
-    elements : ["Wallets", "Budgets", "Reports", "Calculators", "Coinage"]
+    header : "Signals",
+    elements : ["By Route", "Intersections"]
   },
   {
-    header : "Accounts",
-    elements : ["Bank", "FinanSage", "Merchant"]
+    header : "Speed Limits",
+    elements : ["By Route", "Intersections"]
   },
   {
-    header : "Transactions",
-    elements : ["Send Money", "Make Payment", "Pay Bill", "Bank Transfers", "Cash Out"]
+    header : "Notifications",
+    elements : ["Updated Rules", "New lane updates"]
   },
   {
-    header : "Resource Hub",
-    elements : ["Articles", "Insights"]
-  },
-  {
-    header : "Connect",
-    elements : ["FinanCom", "Market Trends", "News Portal"]
+    header : "Warnings",
+    elements : []
   },
 ]
