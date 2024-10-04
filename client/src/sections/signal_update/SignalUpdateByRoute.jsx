@@ -2,8 +2,8 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable react/prop-types */
 import { motion } from "framer-motion";
-import { useNavigate } from "react-router-dom";
 import LogoImage from "../../assets/images/Kat1NoBg.png";
+import GradualText from "../../components/TextAnimations/GradualText";
 
 const gridSquareVariants = {
     hidden: { opacity: 0 },
@@ -13,7 +13,6 @@ const gridSquareVariants = {
 const catchPhrase = "Adaptive Traffic Manager";
 
 const SignalUpdateByRoute = ({ }) => {
-    //   const navigate = useNavigate();
 
     return (
         <div className="text-slate-200 px-4 lg:px-20 lg:py-40">
@@ -47,19 +46,6 @@ const SignalUpdateByRoute = ({ }) => {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 1, ease: "easeOut", delay: 0.4 }}
                 >
-                    {false && (
-                        <div className="flex justify-center max-w-xl">
-                            {/* <a href="https://www.facebook.com/ishrak.adit"> */}
-                            {false && (
-                                <img
-                                    src={LogoImage}
-                                    alt="Ishrak Adit"
-                                    className="w-full h-auto object-cover rounded-lg shadow-lg"
-                                />
-                            )}
-                            {/* </a> */}
-                        </div>
-                    )}
 
                     <div className="bg-blue-200 rounded-xl shadow-md flex flex-col pb-4 pr-4 sm:ml-4 md:ml-10">
                         <div className="bg-gradient-to-r from-blue-400 to-purple-400 text-slate-200 p-4 rounded-lg shadow-md w-full">
