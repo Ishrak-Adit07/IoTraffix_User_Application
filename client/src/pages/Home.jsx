@@ -1,6 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React, { useEffect, useRef, useState } from 'react';
 import SignalUpdateByRoute from '../sections/signal_update/SignalUpdateByRoute';
+import AverageSignalTime from '../sections/Charts/AverageSignalTime';
 
 const Home = () => {
 
@@ -29,8 +30,9 @@ const Home = () => {
                 }
 
                 {!loading &&
-                    <div>
+                    <div className='w-full'>
                         <SignalUpdateByRoute />
+                        <AverageSignalTime />
                     </div>
                 }
             </div>
